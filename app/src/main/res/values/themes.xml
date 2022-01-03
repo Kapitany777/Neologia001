@@ -12,5 +12,15 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ButtonMenu">
+        <item name="android:layout_weight">1</item>
+        <item name="autoSizeTextType">uniform</item>
+<!--        <item name="autoSizeStepGranularity">1sp</item>-->
+        <item name="autoSizePresetSizes">@array/button_menu_text_sizes</item>
+        <item name="android:padding">8dp</item>
     </style>
 </resources>
